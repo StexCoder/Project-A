@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgb(0, 0, 15), black) ;
+    min-height: 100vh;
+}
+.header{
+    padding: 10px;
+   
+    min-width: 100%;
+    align-items: center;
+}
+.menu{
+    padding-top: 10px ;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40%;
+
+    
+
+}
+
+.menu-item {
+    margin-left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: red;
+    text-decoration: none;
+
+}
+  
+  .menu-item + .menu-item {
+    margin-left:6rem; /* or any other value you prefer */
+  }
+  
+
+ 
+
+  .menu-item:hover, #active {
+    color: rgb(245, 17, 47);
+    font-size: 1.3rem;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    background: rgb(12, 7, 7);
+    border-radius: 40% 40%;
+
+  }
+
+
+.logo{margin-left: 50%;
+    padding: 20px;
+    margin: 0;
+    
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width:60%;
+}
+
+.red{
+    color: red;
+}
+
+#red1{
+    margin-left: 50%;
+}
+.ttl{
+    margin-left: 25%;
+    font-size:7rem;
+    color: rgb(241, 46, 11);
+}
+#am{
+    margin-left: 15%;
+}
